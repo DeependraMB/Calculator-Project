@@ -1,0 +1,50 @@
+body {
+    background: linear-gradient(to right, #68EACC 10%,#87a9f1 100%);
+}
+
+
+.mainBody {
+    background:black;
+    width: 300px;
+    height: 400px;
+    align-items: center;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 3px;
+}
+.inputField input {
+    width: 85%;
+    height: 40px;
+    margin-left: 18px;
+    border-radius: 3px;
+   float: left;
+    background-color: white;
+}
+.inputField h4 {
+    color: #fff;
+    margin-left: 18px ;
+    font-weight: 800;
+}
+.inputField span {
+    font-style: italic;
+    font-size: small;
+    font-weight: 700;
+}
+
+    
+.content button {
+    width: 50px;
+    height: 50px;
+    margin: 3px;
+    margin-left: 15px;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 3px;
+}
+.content span {
+    margin-left: 216px;
+}
