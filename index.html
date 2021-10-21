@@ -11,28 +11,28 @@
 <body>
     <div class="mainBody">
         <div class="inputField">
-            <input type="text">
+            <input type="text" id="screen">
             <h4>CASIO <span>fx-991ES PLUS</span> </h4>
             
         </div>
-        <div class="content">
-         <span><button>C</button></span>   <br>
-            <button>7</button>
-            <button>8</button>
-            <button>9</button>
-            <button>*</button> <br>
-            <button>4</button>
-            <button>5</button>
-            <button>6</button>
-            <button>+</button> <br>
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-            <button>-</button><br>
-            <button>.</button>
-            <button>0</button>
-            <button>/</button>
-            <button>=</button>
+        <div id="content">
+         <span><button onclick="clearDisplay()">C</button></span> <br>
+            <button onclick="displayBtn(7)">7</button>
+            <button onclick="displayBtn(8)">8</button>
+            <button onclick="displayBtn(9)">9</button>
+            <button onclick="displayBtn('*')">*</button> <br>
+            <button onclick="displayBtn(4)">4</button>
+            <button onclick="displayBtn(5)">5</button>
+            <button onclick="displayBtn(6)">6</button>
+            <button onclick="displayBtn('+')">+</button> <br>
+            <button onclick="displayBtn(1)">1</button>
+            <button onclick="displayBtn(2)">2</button>
+            <button onclick="displayBtn(3)">3</button>
+            <button onclick="displayBtn('-')">-</button><br>
+            <button onclick="displayBtn('.')">.</button>
+            <button onclick="displayBtn(0)">0</button>
+            <button onclick="displayBtn('/')">/</button>
+            <button onclick="equalAnswer()">=</button>
             
 
         </div>
